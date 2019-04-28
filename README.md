@@ -1,6 +1,7 @@
 # opencore-amr_for_iOS
 
-## 新工程需要将acc转码成amr跟Android互通，由于不想关掉bitcode 搜索了很多的 opencore-arm 的库，都没有bitcode版本的，从 https://github.com/chuliangliang/opencore-amr-iOS 下载了最新的版本，但是不知道怎么总是编译不过，后在 https://my.oschina.net/u/3358032/blog/860210 搜索到了其他的编译 shell， 对shell也不是很熟，勉强看懂一点，增加了新的架构 arm64e
+### 新工程需要将acc转码成amr跟Android互通，由于不想关掉bitcode 搜索了很多的 opencore-arm 的库，都没有bitcode版本的，从 https://github.com/chuliangliang/opencore-amr-iOS 下载了最新的版本，但是不知道怎么总是编译不过，
+### 后在 https://my.oschina.net/u/3358032/blog/860210 搜索到了其他的编译 shell， 对shell也不是很熟，勉强看懂一点，增加了新的架构 arm64e
 
 iOS编译生成opencore-amr类库（libopencore-amrnb.a libopencore-amrwb.a）
 
